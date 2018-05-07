@@ -1,0 +1,157 @@
+    1  passwd benjamin
+    2  git
+    3  maven
+    4  w
+    5  ls
+    6  w
+    7  top
+    8  netstat -vatup
+    9  ls
+   10  w
+   11  cat /etc/issue
+   12  dpkg-query --show
+   13  lynx http://gen.lib.rus.ec/get?md5=340ad05c74ca1260bc7e4b35ca7e86f2
+   14  file a.pdf
+   15  exit
+   16  lynx http://gen.lib.rus.ec/get?md5=f61c773e3de2535678a591c8d1f9a5fd
+   17  exit
+   18  lynx
+   19  lynx  http://ligben.org
+   20  exit
+   21  ls
+   22  w
+   23  ls
+   24  cd my
+   25  ls
+   26  vi size.c
+   27  cd ..
+   28  ls
+   29  exit
+   30  w
+   31  ls
+   32  cd vagrant-stackcreek/
+   33  ls
+   34  cat Vagrantfile 
+   35  cd
+   36  vi w
+   37  ls
+   38  w
+   39  cat /etc/issue
+   40  exit
+   41  cat things.txt 
+   42  ssh hilbert
+   43  cat things.txt 
+   44  ssh root@<span class="skimlinks-unlinked">APP.SERVER.IP.ADDRESS</span>
+   45  exit
+   46  ssh hilbert
+   47  python
+   48  viwalk.py
+   49  vi walk.py
+   50  python walk.py 
+   51  vi walk.py
+   52  python walk.py 
+   53  ssh fermat
+   54  exit
+   55  scp -r benjamin@nestor.westgrid.ca:westgrid.tar .
+   56  df -h
+   57  uname -a
+   58  cat /etc/issue
+   59  pip
+   60  ssh fermat
+   61  ls
+   62  w
+   63  finger olga
+   64  netstat
+   65  netstat -vatup
+   66  sudo cat /etc/shadow
+   67  exit
+   68  sudo cat /etc/shadow
+   69  apt-get install pip
+   70  sudo apt-get install pip
+   71  sudo apt-get install python-pip
+   72  pip install tox
+   73  sudo pip install tox
+   74  ls *.tar.gz
+   75  ls *.tar
+   76  wget http://tarballs.openstack.org/keystone/keystone-2014.2.tar.gz
+   77  tar zxvf keystone-2014.2.tar.gz 
+   78  cd keystone-2014.2/
+   79  ls
+   80  sh run_tests.sh 
+   81  vi run_tests.sh 
+   82  ./run_tests.sh 
+   83  ls
+   84  cat test-requirements.txt 
+   85  ls
+   86  vi README.rst 
+   87  grep require *
+   88  pip install -r requirements.txt 
+   89  sudo pip install -r requirements.txt 
+   90  ./run_tests.sh 
+   91  sudo ./run_tests.sh 
+   92  sudo pip install -r test-requirements.txt 
+   93  sudo ./run_tests.sh 
+   94  ls
+   95  python
+   96  ./run_tests.sh 
+   97  exit
+   98  cd keystone-2014.2/
+   99  ./run_tests.sh 
+  100  sudo pip install six
+  101  sudo pip install six --upgrade
+  102  ls
+  103  ./run_tests.sh 
+  104  cd
+  105  rm -rf keystone-2014.2
+  106  tar zxvf keystone-2014.2.tar.gz 
+  107  cd keystone-2014.2/
+  108  ./run_tests.sh 
+  109  tools/with_venv.sh pip install --upgrade -r /home/benjamin/keystone-2014.2/requirements.txt -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  110  sudo tools/with_venv.sh pip install --upgrade -r /home/benjamin/keystone-2014.2/requirements.txt -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  111  sudo apt-get install sqlalchemy
+  112  sudo apt-cache search alchemy
+  113  sudo apt-get install python-sqlalchemy
+  114  sudo tools/with_venv.sh pip install --upgrade -r /home/benjamin/keystone-2014.2/requirements.txt -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  115  sudo apt-get install python-sqlalchemy
+  116  dpkg -l 
+  117  dpkg -l  | grep alchemy
+  118  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  119  sudo tools/with_venv.sh pip install python-sqlalchemy
+  120  dpkg -l  | grep alchemy
+  121  sudo tools/with_venv.sh pip install python-sqlalchemy
+  122  sudo sudo tools/with_venv.sh pip install python-sqlalchemy
+  123  sudo tools/with_venv.sh pip install python-sqlalchemy
+  124  ools/with_venv.sh pip install python-sqlalchemy
+  125  tools/with_venv.sh pip install python-sqlalchemy
+  126  pip install python-sqlalchemy
+  127  pip install sqlalchemy
+  128  pip install sqlalchemy --upgrade
+  129  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  130  x86_64-linux-gnu-gcc
+  131  sudo apt-cache search libffi
+  132  sudo apt-get install libffi-dev
+  133  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  134  sudo apt-get install sasl
+  135  sudo apt-cache search sasl
+  136  sudo apt-get installlib sasl
+  137  sudo apt-get install libsasl
+  138  sudo apt-get install libsasl2
+  139  sudo apt-get install libsasl2-2
+  140  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  141  sudo apt-get install libldap2-dev
+  142  apt-cache search sasl | grep dev
+  143* sudo apt-get install
+  144  sudo apt-get install -y python-dev libldap2-dev libsasl2-dev libssl-dev
+  145  history > history.txt
+  146  mv history.txt ../
+  147  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  148  sudo apt-get install -y sqlite3
+  149  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  150  sudo apt-get install -y sqlite3-dev
+  151  sudo apt-cache search sqlite3
+  152  sudo apt-get install -y libsqlite3-gst
+  153  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  154  sudo apt-get install -y libsqlite3-dev
+  155  sudo tools/with_venv.sh pip install -r /home/benjamin/keystone-2014.2/test-requirements.txt
+  156  ./run_tests.sh 
+  157  history > ../history.txt 
