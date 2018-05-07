@@ -1,0 +1,11 @@
+0.048*"-" + 0.016*"The" + 0.013*"Donald" + 0.013*"New" + 0.012*"Trump" + 0.010*"York" + 0.010*"Times" + 0.009*"Paul" + 0.006*"Because" + 0.006*"Anti-Trump"
+0.034*"-" + 0.020*"Trump" + 0.013*"White" + 0.012*"Texas" + 0.011*"House" + 0.010*"Illegal" + 0.010*"Border" + 0.007*"The" + 0.007*"New" + 0.007*"After"
+0.044*"-" + 0.037*"Hillary" + 0.036*"Clinton" + 0.014*"Trump" + 0.010*"The" + 0.010*"New" + 0.007*"Times" + 0.007*"York" + 0.007*"Donald" + 0.005*"Clinton’s"
+0.033*"-" + 0.016*"Cruz" + 0.014*"Ted" + 0.010*"Donald" + 0.009*"President" + 0.009*"Is" + 0.008*"Bernie" + 0.007*"Trump" + 0.006*"Control" + 0.006*"Sanders"
+0.032*"-" + 0.020*"Islamic" + 0.018*"Trump" + 0.017*"State" + 0.010*"American" + 0.009*"John" + 0.008*"To" + 0.007*"The" + 0.006*"New" + 0.006*"Court"
+0.038*"-" + 0.012*"Trump" + 0.010*"The" + 0.009*"New" + 0.007*"Rubio" + 0.007*"York" + 0.007*"Ryan" + 0.006*"Open" + 0.006*"Times" + 0.006*"Is"
+0.192*"Breitbart" + 0.102*"-" + 0.021*"Trump" + 0.006*"Is" + 0.005*"Not" + 0.005*"Obama" + 0.005*"Will" + 0.005*"Trump:" + 0.005*"The" + 0.004*"GOP"
+0.036*"To" + 0.026*"-" + 0.011*"Man" + 0.010*"Migrant" + 0.007*"Terror" + 0.007*"The" + 0.006*"New" + 0.006*"Following" + 0.006*"Mexican" + 0.006*"Police"
+0.031*"-" + 0.014*"We" + 0.013*"Watch:" + 0.008*"After" + 0.007*"The" + 0.006*"New" + 0.006*"WATCH:" + 0.005*"Attack" + 0.005*"Two" + 0.005*"Terrorist"
+0.035*"-" + 0.009*"Gun" + 0.008*"The" + 0.008*"New" + 0.006*"Times" + 0.006*"Must" + 0.006*"York" + 0.005*"Email" + 0.005*"Trump" + 0.005*"Days"
+
