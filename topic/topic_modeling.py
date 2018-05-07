@@ -20,7 +20,6 @@ import nltk;
 from gensim.models import ldamodel
 import gensim.corpora;
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer;
-from sklearn.decomposition import NMF;
 from sklearn.preprocessing import normalize;
 
 """
