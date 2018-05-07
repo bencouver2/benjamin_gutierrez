@@ -57,16 +57,17 @@ for idx in range(len(text_tomine)):
 #takes ages for the ABC data
 #pickle.dump(text_tomine, open('text_tomine.dat', 'wb'))
 
-train_headlines = [value[0] for value in text_tomine.iloc[0:].values];
+training_docset = [value[0] for value in text_tomine.iloc[0:].values];
 num_topics = 10;
 """
 Next step is to create an object for LDA model and train it on Document-Term matrix. 
 The gensim module allows both LDA model estimation from a training corpus and inference 
 of topic distribution on new, unseen documents.
+https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/
 """
-id2word = gensim.corpora.Dictionary(train_headlines);
+id2word = gensim.corpora.Dictionary(training_docset);
 
-corpus = [id2word.doc2bow(text) for text in train_headlines];
+corpus = [id2word.doc2bow(text) for text in training_docset];
 
 lda = ldamodel.LdaModel(corpus=corpus, id2word=id2word, num_topics=num_topics);
 print("")
