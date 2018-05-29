@@ -51,14 +51,15 @@ for idx in range(len(text_tomine)):
     text_tomine.iloc[idx]['title'] = [word for word in text_tomine.iloc[idx]['title'].split(' ') if word not in stopwords.words()];
     #print logs to monitor output
     sys.stdout.write('\rc = ' + str(idx) + ' / ' + str(len(text_tomine)));
-
-#Save the data if the dataset is too big, like the
-#complete ABC news one million lines. This is done since the above cleanup
-#takes ages for the ABC data
-#pickle.dump(text_tomine, open('text_tomine.dat', 'wb'))
-
+"""
+Save the data if the dataset is too big, like the complete ABC news one 
+million lines. This is done since the above cleanup
+takes ages for the ABC data 
+pickle.dump(text_tomine, open('text_tomine.dat', 'wb'))
+"""
 training_docset = [value[0] for value in text_tomine.iloc[0:].values];
 num_topics = 10;
+#pandas .values method converts the df in ndarrat as needed
 """
 Next step is to create an object for LDA model and train it on Document-Term matrix. 
 The gensim module allows both LDA model estimation from a training corpus and inference 
