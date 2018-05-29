@@ -51,6 +51,7 @@ ax.scatter(x,y,z, c='m',s=80, alpha=0.30)
 #Plot neighbors
 #Converts the tuple of one array to several tuples, each with one index of a neighbor
 ind2=zip(*ind)
+#maybe i can try with np.ndarray.flatten() check later
 
 if debug==1:
  print(ind)
